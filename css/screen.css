@@ -2,5 +2,39 @@
 body{
     font-family: "Verdana", Verdana, Arial, sans-serif;
     min-height: 100vh;
-    background-color: #e4f1fe; 
+    background-color: grey; 
 }
+
+header{
+    background-color: #03203C;
+    color: #e4f1fe;
+	top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+header h1{
+    text-align: center;
+	margin: 1em auto;
+    font-size: 2.3em;
+}
+
+.general{
+    height: 50%;
+    width: 90%;
+    position: fixed;
+    top: 25%;
+    bottom: 25%;
+    left: 50%; 
+    margin-left: -45%;
+}
+
+.general fieldset legend{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.general fieldset{
+    margin: 0 auto;
+}
+
