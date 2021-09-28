@@ -19,6 +19,10 @@ header h1{
     font-size: 2.3em;
 }
 
+.general label{
+    display: block;
+}
+
 .general{
     height: 50%;
     width: 90%;
@@ -45,3 +49,25 @@ header h1{
     margin: 0 auto;
 }
 
+.button-container{
+    width: 100%;
+    height: 3em;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.general .button{
+    width: 35%;
+    height: 4em;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #03203C;
+    color: #e4f1fe;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
