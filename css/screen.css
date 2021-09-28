@@ -75,3 +75,23 @@ footer{
 .footer{
     margin: 4em auto;
 }
+
+/* Mobile Tablet */
+@media screen and (min-width: 768px){
+    .general .label{
+        text-align: center;
+    }
+    .general label{
+        display: inline;
+    }
+    .general .button-container{
+        width: 75%;
+    }
+  }
+  
+  /* Desktops */
+@media screen and (min-width: 1025px){
+    .general .button-container{
+        width: 50%;
+    }
+  }
